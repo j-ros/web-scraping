@@ -1,13 +1,17 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Oct 13 16:46:45 2018
+Tornado Database web-scraper
 
-@author: Jesus
+Main script to execute the web-scraping task.
+
+Scraps tabular data from all years in Alabama Tornado Database
+( https://www.weather.gov/bmx/tornadodb_main ) and returns a csv file
+with the output.
 """
 
 import scraper
 
 scraper = scraper.Scraper()
 scraper.run()
-#print(scraper.data) #Uncomment in debug
-scraper.output_csv('test.csv') #Comment in debug
+scraper.output_csv('../data/dataset.csv')
