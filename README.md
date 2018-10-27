@@ -15,7 +15,10 @@ The project is developed in Python3 and uses the following external libraries:
 
 - data
 	- dataset.csv: output dataset.
-- doc 
+- doc
+	- img: image folder containing images used in documentation.
+	- doc.Rmd: R script to generate documentation.
+	- doc.pdf: pdf output of the documentation.
 - src
 	- main.py: Python script that executes the web scraping pipeline.
 	- scraper.py: Python script with the definition of the Scraper class, containing the structures to store the scraped data and methods to manipulate it.
