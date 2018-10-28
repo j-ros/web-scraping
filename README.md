@@ -16,7 +16,7 @@ The project is developed in Python3 and uses the following external libraries:
 - data
 	- dataset.csv: output dataset.
 - doc
-	- img: image folder containing images used in documentation.
+	- img: folder containing images used in documentation.
 	- doc.Rmd: R script to generate documentation.
 	- doc.pdf: pdf output of the documentation.
 - src
