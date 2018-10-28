@@ -1,4 +1,4 @@
-# Web scraping: Tornado Dataset
+# Alabama Tornado Dataset
 ### Author: Jesús Ros Solé
 
 ## Objective
